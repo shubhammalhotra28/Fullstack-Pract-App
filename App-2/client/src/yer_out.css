@@ -1,0 +1,67 @@
+.yer-out-app{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1pt solid black;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button-box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.batters-box{
+  display: flex;
+  justify-content: center;
+}
+.outcome-box{
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 0.75em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.line-score{
+  font-size: 2em;
+  margin: 0.5em;
+}
+
+.line-score span {
+  display: inline-block;
+  /* padding: 1em; */
+  width: 1em;
+  height: 1em;
+  /* border: 1pt solid white; */
+}
+
+.line-score span:first-of-type {
+  width: 4em;
+}
+
+.line-score .header {
+  border-bottom: 1pt solid black;
+  font-weight: normal;
+}
+
+.the-count{
+  font-size: 2em;
+}
+
+.the-count .outs {
+  margin-left: 1em;
+}
+
+
+.atBat {
+  border: 1px solid black;
+}
