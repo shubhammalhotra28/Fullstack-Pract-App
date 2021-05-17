@@ -1,2 +1,2 @@
-# client-sm9971
+# Fullstack app using react + flask
 
