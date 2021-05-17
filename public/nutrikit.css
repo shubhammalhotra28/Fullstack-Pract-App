@@ -1,0 +1,68 @@
+body {
+	font-family: Segoe UI;
+	background-color:lightyellow;
+}
+.main_div {
+	padding-left: 27rem;
+}
+.main {
+	padding-left: 27rem;
+}
+#heading {
+	text-align: center;
+}
+h3{
+	text-align: center;	
+}
+#dropdown_list {
+	padding-right: 25px;
+}
+.droplist{
+	padding: 3em; 
+	padding-top: 0em;
+
+}
+.categories{
+	padding: 3.5rem;
+    margin: 2rem;
+}
+.menu_items{
+	/*padding: 2.5rem;*/
+    margin: 2rem;	
+}
+.selected_items{
+	padding: 5rem;
+    margin: 2rem;		
+}
+.text_area_span_1 {
+	vertical-align: top;	
+}
+.button_span {    
+	vertical-align: top;
+    /* border: 30px solid #9e4242; */
+    margin: 30px;
+}
+
+#text_area_1 {
+	width: 7rem;
+}
+#text_area_2 {
+	width: 18rem;
+}
+.droplist{
+	vertical-align: top;
+    margin: 2rem;
+    padding: 3rem;
+    width: 30px;
+}
+p {
+	display: inline-block;
+
+}
+
+.calories {
+	display: none;
+	padding-left: 31.8rem;
+}
+
+

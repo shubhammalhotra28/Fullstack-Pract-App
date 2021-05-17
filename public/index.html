@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web Assignment 0</title>
+  <meta name="description" content="First web assignment">
+  <meta name="author" content="Shubham Malhotra">
+
+  <script type="text/javascript">
+  		function changeText(name) {
+		let dropdown = document.getElementById('dropdown_list');
+		let text = document.getElementById('text-area');
+		text.value = dropdown.value;
+	}
+
+  </script>
+
+
+
+</head>
+<body>
+
+	<h1 style="display: block; font-family: Verdana; size: 36px; text-align: center;">
+		SWEN-344 Web Assignment 0
+	</h1>
+
+	<h2 style = "font-family: impact;text-align: center;">
+		Section 01
+	</h2>
+
+	<div>
+	<div style="display: flex; flex-direction: row; justify-content: center;">
+	  	<span style="padding: 3em; padding-top: 0em;">
+		  	<select name="dropdown_list" id="dropdown_list" style="padding-right: 25px;" onchange="changeText()">
+		  	<option value="blank"></option>
+		    <option value="Verdana">Verdana</option>
+		    <option value="Arial">Arial</option>
+		    <option value="Times">Times</option>
+		    <option value="Gothic">Gothic</option>
+		    <option value="Impact">Impact</option>
+
+		  	</select>
+  		</span>
+  		
+  		<div style="padding-top: 0em;">
+  			<form>
+	  		<input type="radio" id="black" name="text-val" value="black" style="width: 15px;">
+	  		<label for="black">Black</label><br>
+	  		<input type="radio" id="red" name="text-val" value="red" style="width: 15px;">
+	  		<label for="red">Red</label><br>
+	  		<input type="radio" id="green" name="text-val" value="green" style="width: 15px;">
+	  		<label for="green">Green</label><br>
+	  		<input type="radio" id="blue" name="text-val" value="blue" style="width: 15px;">
+	  		<label for="blue">Blue</label><br>
+	  		<input type="radio" id="purple" name="text-val" value="purple" style="width: 15px;">
+	  		<label for="purple">Purple</label><br>
+  			</form>
+  		</div>
+  		
+  	</div>
+
+  	<div style="text-align: center; padding-top: 3em;">
+	  	<textarea id="text-area" name="text-area" rows="3" cols="40" style="text-decoration: none;" placeholder="Enter some text here"></textarea>
+	</div>
+
+
+
+</body>
+</html>

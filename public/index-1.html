@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		index-1
+	</title>
+	<link rel="stylesheet" type="text/css" href="nutrikit.css">
+	<script type="text/javascript" src="nutrikit.js"></script>
+</head>
+<body>
+	<h1 id="heading">
+		NutriKit Food Planner
+	</h1>
+	<h3>
+		NutriKit allows you to select your groceries, and track your nutritional progress (good or bad)
+	</h3>
+
+	<div class="main_div">
+		<span class="categories">
+		<label for="categories">Categories</label>
+		</span>
+		<span class="menu_items">
+		<label for="menu_items">Menu Items</label>
+		</span>
+		<span class="selected_items">
+		<label for="selected_items">Selected Items</label>
+		</span>
+	</div>
+
+
+	<div class="main">
+		<span class = "droplist">
+			<select name="dropdown_list" id="dropdown_list" onchange="listitems();">
+				<option value="blank"></option>
+				<option value="Proteins">Proteins</option>
+				<option value="Fruits">Fruits</option>
+				<option value="Vegetables">Vegetables</option>
+				<option value="Dairy">Dairy</option>
+				<option value="Grain">Grain</option>
+
+			</select>
+	  	</span>
+
+	  	<span class="text_area_span_1" onchange="checkAddition(); setTextOfButton();" onfocus="this.selectedIndex = -1;">
+	  		<select id="text_area_1" size="5" >  
+			</select> 
+
+
+	  	</span>
+	  	<span class="button_span">
+	  		<button id="button" onclick="buttonValue();">
+	  			>>	
+	  		</button>
+	  	</span>
+	  	<span class="text_area_span_2" onchange="checkRemoval(); setTextOfButtonToRemove();" onfocus="this.selectedIndex = -1;">
+	  		<select id="text_area_2" size="15" >  
+			</select> 
+			<br>
+			<span class="calories">
+			<p>
+				Total Calories
+			</p>
+			</span>
+			<span class="total_sum">
+			<p>
+				
+			</p>
+			</span>
+
+	  	</span>
+
+
+  	</div>
+
+</body>
+</html>

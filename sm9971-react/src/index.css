@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Segoe UI;
+	background-color:lightyellow;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.center-allign {
+  text-align: center;
+}
